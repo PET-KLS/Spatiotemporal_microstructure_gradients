@@ -1,0 +1,9 @@
+numpy>=1.24,<3
+pandas>=2.0,<3
+scipy>=1.11,<2
+networkx>=3.1,<4
+statsmodels>=0.14,<0.15
+matplotlib>=3.7,<4
+nibabel>=5.1,<6
+brainspace>=0.1.10,<0.2
+neuromaps>=0.0.5,<0.1
