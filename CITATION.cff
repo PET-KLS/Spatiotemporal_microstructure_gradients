@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below and cite the relevant datasets and methods."
+type: software
+title: "PET-KLS spatiotemporal brain-map pipeline"
+authors:
+  - family-names: Monteiro
+    given-names: Sara
+repository-code: "https://github.com/PET-KLS/Spatiotemporal_microstructure_gradients"
+url: "https://github.com/PET-KLS/Spatiotemporal_microstructure_gradients"
+license: MIT
+abstract: >-
+  Regional modelling of PET-KLS network properties across estimated Alzheimer's
+  disease time and spatial comparison with atlas-aligned normative brain maps.
+  The downstream regional modelling approach can be adapted to other imaging
+  modalities and network metrics.
+keywords:
+  - neuroimaging
+  - PET
+  - connectomics
+  - generalized additive models
+  - spatial analysis
