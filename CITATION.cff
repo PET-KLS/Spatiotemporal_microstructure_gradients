@@ -1,21 +1,79 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it using the metadata below and cite the relevant datasets and methods."
+message: If you use this work, please cite the article below.
 type: software
-title: "PET-KLS spatiotemporal brain-map pipeline"
+title: PET-KLS computational environments and dependency archive
 authors:
-  - family-names: Monteiro
-    given-names: Sara
-repository-code: "https://github.com/PET-KLS/Spatiotemporal_microstructure_gradients"
-url: "https://github.com/PET-KLS/Spatiotemporal_microstructure_gradients"
+- family-names: Monteiro
+  given-names: Sara
+repository-code: https://github.com/PET-KLS/env
+url: https://github.com/PET-KLS/env
 license: MIT
-abstract: >-
-  Regional modelling of PET-KLS network properties across estimated Alzheimer's
-  disease time and spatial comparison with atlas-aligned normative brain maps.
-  The downstream regional modelling approach can be adapted to other imaging
-  modalities and network metrics.
+abstract: Recorded Conda environment specifications, package inventories and a static Colab dependency/configuration
+  manifest for PET-KLS analyses.
 keywords:
-  - neuroimaging
-  - PET
-  - connectomics
-  - generalized additive models
-  - spatial analysis
+- neuroimaging
+- PET
+- connectomics
+- generalized additive models
+- spatial analysis
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Monteiro
+    given-names: S
+  - family-names: Arunachalam
+    given-names: P
+  - family-names: Pieperhoff
+    given-names: L
+  - family-names: Tranfa
+    given-names: M
+  - family-names: Masserini
+    given-names: F
+  - family-names: Ritchie
+    given-names: C
+  - family-names: Boada
+    given-names: M
+  - family-names: Marquié
+    given-names: M
+  - family-names: Vijverberg
+    given-names: J
+  - family-names: Vandenberghe
+    given-names: R
+  - family-names: Hanseeuw
+    given-names: BJ
+  - family-names: Visser
+    given-names: PJ
+  - family-names: Frisoni
+    given-names: GB
+  - family-names: Stephens
+    given-names: A
+  - family-names: Farrar
+    given-names: G
+  - family-names: Pardini
+    given-names: M
+  - family-names: Roccatagliata
+    given-names: L
+  - family-names: Jessen
+    given-names: F
+  - family-names: Salvadó
+    given-names: G
+  - family-names: Vállez-García
+    given-names: D
+  - family-names: Pontillo
+    given-names: G
+  - family-names: Luckett
+    given-names: ES
+  - family-names: Cole
+    given-names: JH
+  - family-names: Barkhof
+    given-names: F
+  - family-names: Wink
+    given-names: AM
+  - family-names: Collij
+    given-names: LE
+  - family-names: Lorenzini
+    given-names: L
+  title: Amyloid PET similarity networks in preclinical Alzheimer’s disease reveal early dynamic topological
+    reorganization.
+  journal: Brain Communications
+  year: 2026
