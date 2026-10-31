@@ -1,0 +1,19 @@
+staging_metrics: data/staging_regional_metrics.csv
+group_metrics: data/group_regional_metrics.csv
+brainmaps:
+  celltype: data/brainmaps/celltype_density_Yeo17_aggregated.csv
+  gene: data/brainmaps/gene-expression_Yeo17_aggregated.csv
+  receptor: data/brainmaps/receptor_density_Yeo17_aggregated.csv
+  # microstructure: data/brainmaps/microstructure_Yeo17_aggregated.csv
+output_dir: outputs
+
+time_min: -15
+time_max: 15
+spline_df: 10
+spline_degree: 3
+centiloid_threshold: 24
+
+# Optional group-size validation.
+# expected_group_counts:
+#   Healthy: 888
+#   EarlyAD: 76
