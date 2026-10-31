@@ -4,7 +4,7 @@ This repository models regional PET-KLS network properties across estimated Alzh
 
 **Code:** [Notebook](PETKLS_Brainmaps_notebook.ipynb) · [Configuration-based pipeline](brainmaps_pipeline.py) · [Spatial-null pipeline](pet_kls_brainmaps.py) · [Example configuration](config.example.yaml) · [Environment repository](https://github.com/PET-KLS/env)
 
-![Amyloid PET-KLS workflow: regional distributions, network topology, ROI-wise GAM fitting, and fitted cortical maps.](assets/workflow.png)
+![Amyloid PET-KLS workflow: regional distributions, network topology, ROI-wise GAM fitting, and fitted cortical maps.](assets/PETKLS_humanbrainmaps_workflow.png)
 
 *Schematic illustration; the normative microstructure maps shown are examples of static spatial comparators.*
 
